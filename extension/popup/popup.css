@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  width: 320px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color: #111827;
+  background: #fff;
+}
+
+main {
+  padding: 16px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.logo {
+  font-size: 22px;
+}
+
+.title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.subtitle {
+  margin: 2px 0 0;
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.card {
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 14px;
+  background: #f9fafb;
+}
+
+.status {
+  margin: 0 0 10px;
+  font-size: 13px;
+  color: #374151;
+  font-weight: 500;
+}
+
+.vin-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 10px;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.vin-row:last-child {
+  margin-bottom: 0;
+}
+
+.vin-code {
+  font-family: ui-monospace, SFMono-Regular, monospace;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.run-btn {
+  border: none;
+  background: #111827;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 7px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.run-btn:hover {
+  background: #1f2937;
+}
+
+.hint {
+  font-size: 12px;
+  color: #6b7280;
+  margin: 12px 2px 0;
+  line-height: 1.5;
+}
+
+.hint a {
+  color: #111827;
+  font-weight: 600;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+  padding-top: 12px;
+  border-top: 1px solid #e5e7eb;
+}
+
+footer a {
+  font-size: 12px;
+  font-weight: 600;
+  color: #374151;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
